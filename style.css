@@ -1,0 +1,135 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(45deg, #FF6B6B, #4ECDC4, #45B7D1, #96CEB4, #FFEEAD);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+  0% {
+      background-position: 0% 50%;
+  }
+  50% {
+      background-position: 100% 50%;
+  }
+  100% {
+      background-position: 0% 50%;
+  }
+}
+
+.central-card {
+  width: 90%;
+  max-width: 1200px;
+  background: rgba(255, 255, 255, 0.95);
+  padding: 2em;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  margin: 2em 0;
+}
+
+header h1 {
+  text-align: center;
+  font-size: 2.5em;
+  color: #333;
+  margin-bottom: 1em;
+}
+
+header nav {
+  background: linear-gradient(to right, #ff6363, #ffba7d);
+  padding: 1em 0;
+}
+
+header nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+header nav ul li {
+  margin: 0 10px;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+section {
+  margin-bottom: 2em;
+}
+
+h2 {
+  color: #ff6363;
+}
+
+img {
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+#biographie {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2em;
+}
+
+#biographie h2 {
+  width: 100%;
+}
+
+#biographie img {
+  width: 300px;
+  height: auto;
+  object-fit: cover;
+}
+
+#biographie .bio-content {
+  flex: 1;
+  min-width: 300px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+.carousel {
+  display: flex;
+  overflow-x: auto;
+  gap: 1em;
+}
+
+.card {
+  flex: 0 0 200px;
+  background: #ffe6e6;
+  padding: 1em;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  gap: 1em;
+}
+
+.social-links a {
+  text-decoration: none;
+  color: #ff6363;
+  font-weight: bold;
+}
