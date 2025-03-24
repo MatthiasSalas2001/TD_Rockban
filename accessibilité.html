@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explications sur l'accessibilité du site Sttellla">
+    <title>Accessibilité - Sttellla</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="central-card-global">
+        <header>
+            <h1>Sttellla</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Accueil</a></li>
+                    <li><a href="#introduction">Introduction</a></li>
+                    <li><a href="#mesures">Mesures d'accessibilité</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <!-- Section Introduction -->
+            <section id="introduction" aria-label="Introduction">
+                <h2>Introduction</h2>
+                <p>Le site officiel de Sttellla a été conçu pour être accessible à tous, y compris aux personnes ayant des handicaps. Cette page détaille les mesures mises en place pour garantir une expérience utilisateur inclusive.</p>
+            </section>
+
+            <!-- Section Mesures d'accessibilité -->
+            <section id="mesures" aria-label="Mesures d'accessibilité">
+                <h2>Mesures d'accessibilité mises en place</h2>
+                <ul>
+                    <li><strong>Structure sémantique :</strong> Les balises HTML sémantiques (<code>&lt;header&gt;</code>, <code>&lt;section&gt;</code>, <code>&lt;nav&gt;</code>, etc.) sont utilisées pour structurer le contenu de manière logique et compréhensible par les technologies d'assistance.</li>
+                    <li><strong>Balises ARIA :</strong> Des attributs ARIA, tels que <code>aria-label</code>, ont été ajoutés pour améliorer la navigation et la compréhension du contenu par les lecteurs d'écran.</li>
+                    <li><strong>Navigation au clavier :</strong> Le site est entièrement navigable au clavier, permettant aux utilisateurs de se déplacer facilement entre les sections sans utiliser une souris.</li>
+                    <li><strong>Contraste des couleurs :</strong> Les couleurs utilisées sur le site respectent les normes de contraste pour garantir une lisibilité optimale, même pour les utilisateurs ayant des déficiences visuelles.</li>
+                    <li><strong>Textes alternatifs :</strong> Toutes les images disposent d'attributs <code>alt</code> descriptifs pour permettre aux utilisateurs de lecteurs d'écran de comprendre le contenu visuel.</li>
+                    <li><strong>Responsive Design :</strong> Le site est conçu pour s'adapter à tous les appareils (ordinateurs, tablettes, smartphones), garantissant une expérience utilisateur cohérente.</li>
+                    <li><strong>Liens explicites :</strong> Les liens incluent des descriptions claires et explicites pour indiquer leur destination ou leur fonction.</li>
+                    <li><strong>Multimédia accessible :</strong> Les vidéos intégrées incluent des titres explicites et sont compatibles avec les lecteurs d'écran.</li>
+                </ul>
+            </section>
+        </main>
+
+        <footer>
+            <p>Site fan réalisé par Matthias Salas</p>
+        </footer>
+    </div>
+</body>
+
+</html>
